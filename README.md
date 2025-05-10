@@ -24,6 +24,9 @@ Ryan Loi · Michelle Loi · Alan Huynh · Jaron Baldazo · Rohan Chaudhary
 
 This project was developed as part of **CPSC 481 (Fall 2023)**, a Human-Computer Interaction (HCI) course at the University of Calgary. The goal was to design and prototype a **creative, intuitive, and user-friendly front-end interface**. We chose to **rebuild the Calgary Public Library’s interactive front-end kiosk system** focusing on improving **usability** and **accessibility**. This is a **front-end only** application with no back-end implementation, ensuring a direct focus on **HCI design principles**.
 
+
+Note: this project is designed to be used on fixed kiosks with a 16:9 aspect ratio and a minimum screen size of 1920x1080 pixels.
+
 ---
 
 ## 🚀 Project Setup
