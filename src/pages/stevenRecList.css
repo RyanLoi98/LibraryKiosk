@@ -1,0 +1,21 @@
+.steven-rec-list-container{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 8rem;
+}
+
+.stevenListHomeHeaderLoggedIn{
+    margin-bottom: 5.1rem;
+}
+
+.list-summary{
+    font-size: larger;
+}
+.steven-rec-total{
+    color: #007bff;
+    font-size: larger;
+}
+
+.steven-rec-books-sum{
+    font-size: larger;
+}

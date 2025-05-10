@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100vw;
+    height: 10vh;
+    place-items: center;
+  }
+
+.checkout{
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: lightgreen;
+
+}
+
+.return{
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: yellow;
+
+}
+  

@@ -1,0 +1,106 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.hhl-cplButton{
+  display: flex;
+  position: absolute;
+  left: 0rem;
+  top: 0.5rem;
+  background: transparent;
+  border: none !important;
+}
+
+.GreetingMessage {
+  position: absolute;
+  width: 11rem;
+  height: 2rem;
+  top: 6.5rem;
+  right: 0rem;
+}
+
+.hhl-language {
+  position: absolute;
+  right: 12rem;
+  top: 3rem;
+  width: 150px;
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: aqua;
+  z-index: 1;
+}
+.hhl-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.hhl-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 6.1rem;
+  left: -21.5rem;
+}
+
+.hhl-dropdown:hover .hhl-dropdown-content {
+  display: block;
+}
+
+
+.hhl-dropdown-content a {
+  background-color: #ddd;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.hhl-dropdown:hover .hhl-language .hhl-dropbtn {
+  background-color: #3e8e41;
+}
+
+.profile {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 0px;
+  right: 145px;
+  background: transparent;
+  border: none !important;
+}
+
+.date {
+  position: absolute;
+  top: 3.2rem;
+  left: 47%;
+  font-size: 1em;
+}
+
+.time {
+  position: absolute;
+  top: 1rem;
+  left: 47%;
+  font-size: 1em;
+}
+
+.hhl-logoutButton{
+  position: absolute;
+  top: 9.5rem;
+  right: 4.5rem;
+  z-index: 1;
+}
+
+.language {
+  width: 150px;
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: aqua;
+}
+
+

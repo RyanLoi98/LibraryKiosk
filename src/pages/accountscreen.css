@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.welcome-message {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 30px; /* Adjust the width of the icon as needed */
+    height: 30px; /* Adjust the height of the icon as needed */
+    margin-right: 10px;
+}
+
+span {
+    font-size: 14px; /* Adjust the font size of the welcome message */
+}
+
+
+/* .left-box {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    border: 2px solid ;
+    border-radius: 2px;
+    overflow: auto; 
+}
+
+.left-box1 {
+    width: 600px; 
+    height: 60px; 
+    position: absolute;
+    top: calc(50% + 250px); 
+    left: 0;
+    border: 2px solid;
+    border-radius: 2px;
+    overflow-y : auto;
+} */
+
+.left-box {
+    width: 600px;
+    height: 600px; 
+    margin-top: 44px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    border: 2px solid;
+    border-radius: 2px;
+    overflow: auto; 
+}
+
+.overdue{
+    color:red;
+}
+
+ .left-box1 {
+    width: 600px; 
+    height: 100px;
+    position: absolute;
+    top: calc(50% + 344px);
+    left: 0;
+    border: 2px solid;
+    border-radius: 2px;
+    overflow-y: auto;
+} 
+.profile-icon {
+    width: 100px; /* Set the width and height of the circle icon */
+    height: 100px;
+    border-radius: 50%; /* Make it a circle */
+    border: 2px solid;
+    position: absolute;
+    top: 275px; /* Adjust the distance from the top */
+    left: 50%; /* Center the circle horizontally */
+    transform: translateX(-50%); /* Adjust for the circle's width */
+    background-image: url('../assets/profile-icon.png');;
+    background-size: cover; /* Ensure the image covers the circle */
+    }
+
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .profile-icon {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('../assets/stickHead.png');
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0px;
+    }
+    
+    .profile-details {
+        text-align: center;
+        margin-left: 600px;
+        margin-top: 250px;
+    }
+    
+    .profile-details p {
+        margin: 5px 0;
+    }
+
+    .book-info {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .book-info img {
+        width: 80px;
+        height: 120px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 20px; /* Adjust the margin-top value to move the image down */
+    }
+    
+    .text-details {
+        text-align: left;
+    }
+    
+    .renew-button {
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .late{
+        color:red;
+    }
+
+
+
+    .left-container{
+        float:left;
+    }
+
+
+    
+    .right-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .right-box-container{
+        margin-top:110px;
+        float:right;
+    }
+    
+    .right-box {
+        width: 600px;
+        height: 250px;
+        border: 2px solid black;
+        overflow-y: auto;
+       
+    }
+    
+    .right-box1 {
+        width: 600px;
+        height: 60px;
+        border: 2px solid black;
+        
+    }
+    .container {
+        display: flex;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .reserved{
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .remove-button{
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .item-reserved{
+        margin-top: 10px;
+    }
+
+    .edit-details-button{
+        margin-top: 20px;
+        border:2px solid;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 15px;
+        border: 2px solid ;
+    }
+
+    .recommendation-button-accountscreen{
+        margin-left: 120px;
+    }   
+
+
+
+    .parent-container {
+        display: flex;
+        justify-content: space-between; /* Align items in the container with space between */
+    }

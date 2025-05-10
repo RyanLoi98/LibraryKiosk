@@ -1,0 +1,21 @@
+.section-logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.logout-container {
+  display: grid;
+}
+
+.logout-title-message {
+  justify-self: center;
+  padding: 12.4rem 0;
+}
+
+.logout-return-message {
+  justify-self: center;
+  padding: 4.8rem 0;
+}

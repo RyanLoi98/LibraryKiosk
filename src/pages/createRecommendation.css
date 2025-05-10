@@ -1,0 +1,81 @@
+.createRecommendationHeader {
+  padding-bottom: 5rem;
+}
+
+.section-create-recommendation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+  /* overflow: auto; */
+}
+
+.create-recommendation-container {
+  display: grid;
+  width: 86rem;
+  /* height: 36rem; */
+}
+
+.create-recommendation-desc-box {
+  display: grid;
+}
+
+.create-recommendation-heading {
+  padding: 1.2rem;
+
+  justify-self: center;
+}
+
+.create-recommendation-item-image {
+  max-height: 18rem;
+  max-width: 18rem;
+
+  justify-self: center;
+}
+
+.create-recommendation-title {
+  padding: 1.2rem;
+  justify-self: center;
+}
+
+.create-recommendation-form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+.create-recommendation-form input,
+.create-recommendation-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.create-recommendation-form #creater {
+  width: 30%;
+}
+
+.create-recommendation-form #select-stars {
+  width: 33%;
+}
+
+.create-recommendation-form #recommendation-description {
+  padding-bottom: 4.8rem;
+}
+
+.create-recommendation-submit-btn-div {
+  display: grid;
+}
+
+.create-recommendation-submit-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 2.4rem;
+  width: 8.4rem;
+  justify-self: center;
+  appearance: none;
+  margin: 1.2rem 0;
+}

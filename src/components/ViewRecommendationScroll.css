@@ -1,0 +1,127 @@
+.section-viewRecommendation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.viewRecommendation-container {
+  display: grid;
+  width: 86rem;
+  height: 32rem;
+}
+
+.viewRecommendation-recommendation {
+  text-align: center;
+  /* margin: 80px auto; */
+  margin: 6.4rem auto;
+  max-width: 86rem;
+  /* max-height: 29rem; */
+  /* display: flex; */
+  /*  */
+  border: 0.2rem solid black;
+  /* background-color: aqua; */
+}
+
+.view-book-rec {
+  max-width: 20rem;
+  max-height: 20rem;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.slick-arrow {
+  z-index: 1;
+}
+
+.slick-prev,
+.slick-next {
+  /* Adjust size if needed */
+  width: 4.8rem; /* Width of the clickable arrow area */
+  height: 4.8rem; /* Height of the clickable arrow area */
+  top: 50%; /* Position arrows vertically in the middle */
+  transform: translateY(-50%); /* Align arrows vertically centered */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Choose a color that contrasts with the carousel background */
+  font-size: 4.8rem;
+}
+
+.slick-prev {
+  /* Adjust the value to position the arrow inside the carousel's view */
+  left: -7.2rem;
+}
+
+.slick-next {
+  /* Adjust the value to position the arrow inside the carousel's view */
+  right: -7.2rem;
+}
+
+/* .slick-dots {
+  position: absolute;
+  top: 28rem;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.viewRecommendation-list-box {
+  display: grid;
+  border: 0.2rem solid black;
+  grid-template-rows: auto;
+}
+
+.recommendation-list-title {
+  border-bottom: 0.2rem solid black;
+  padding: 1.2rem;
+  margin: 0;
+  grid-column: span 1;
+}
+
+.recommendation-list-item-box {
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: auto;
+  /* justify-self: center; */
+}
+
+.recommendation-list-item {
+  grid-row: 1;
+  display: grid;
+  border-bottom: 0.2rem solid black;
+  padding-bottom: 1.2rem;
+}
+
+.view-book-rec,
+.rec-item-img {
+  justify-self: center;
+}
+
+.recommendation-item-remv-btn {
+  justify-self: center;
+  background-color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.48rem;
+}
+
+.recommendation-list-add-btn {
+  justify-self: center;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: greenyellow;
+  margin: 1.2rem 0;
+  grid-row: 3;
+  grid-column: 1 / span -1;
+}
+
+.viewRecommendation-new-list-btn {
+  margin-top: 3.2rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: green;
+  margin-bottom: 4.8rem;
+}

@@ -1,0 +1,335 @@
+/* General */
+.section-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.informationHomeHeaderLoggedIn {
+  margin-bottom: 5.1rem;
+}
+
+.information-container {
+  display: grid;
+  width: 86rem;
+  height: 48rem;
+  grid-template-columns: 1fr 6fr;
+  /* overflow: auto; */
+}
+
+/* Image Container */
+.information-image-container {
+  display: grid;
+}
+
+.information-item-image {
+  max-width: 15rem;
+  max-height: 15rem;
+
+  justify-self: center;
+  margin-top: 4.8rem;
+}
+
+/* Summary Container */
+.information-summary-container {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  /* grid-template-rows: 1fr 6fr 1fr 1fr; */
+  grid-template-rows: 1fr auto 1fr 1fr;
+  /*  */
+  border: 0.2rem solid black;
+}
+
+.information-summary-title {
+  grid-row: 1;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(6, auto);
+  /*  */
+  padding: 1.2rem;
+  border-bottom: 0.2rem solid black;
+  grid-gap: 1.2rem;
+}
+
+.information-item-title {
+  font-weight: 700;
+  justify-self: center;
+  align-self: center;
+}
+
+.information-item-star-rating {
+  font-size: 1.8rem;
+  color: yellow;
+  text-shadow: -1px -1px 0 #000, /* top left */ 1px -1px 0 #000,
+    /* top right */ -1px 1px 0 #000, /* bottom left */ 1px 1px 0 #000; /* bottom right */
+  justify-self: center;
+  align-self: center;
+}
+
+.information-item-number-rating {
+  font-size: 1.8rem;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+}
+
+.information-summary-title-btn {
+  font-size: 1.5rem;
+}
+
+.information-summary-author-location {
+  /* display: grid; */
+  grid-row: 2/-1;
+  grid-column: 1;
+
+  /*  */
+  padding: 1.2rem;
+  border-right: 0.2rem solid black;
+}
+
+.information-summary-detail-list {
+  list-style-type: none;
+}
+
+.information-summary-locations {
+  display: grid;
+}
+
+.information-summary-item-loaction-title {
+  /* justify-self: center; */
+  align-self: end;
+}
+
+.information-summary-description-details {
+  font-size: 1.5rem;
+  padding: 1.2rem;
+}
+
+.information-summary-item-types {
+  justify-self: center;
+  align-self: center;
+}
+
+.information-summary-item-type-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 2.4rem;
+  width: 8.4rem;
+  justify-self: center;
+  appearance: none;
+}
+
+.information-summary-item-type-select {
+  background-color: rgba(0, 255, 255, 0.38);
+}
+
+.information-summary-cta {
+  justify-self: center;
+  align-self: center;
+}
+
+.information-summary-cta-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* height: 3.6rem;
+  width: 9.6rem; */
+  justify-self: center;
+  appearance: none;
+  /* background-color: rgba(0, 128, 0, 0.38); */
+  background-color: aqua;
+  padding: 1.2rem 2.4rem;
+}
+
+/* RELATED Container */
+.information-related-container {
+  grid-row: 2;
+  grid-column: 2;
+  /*  */
+  border: 0.2rem solid black;
+  margin: 1.2rem 0;
+}
+
+.information-related-books {
+  border-bottom: 0.2rem solid black;
+}
+
+.information-related-books-title {
+  padding: 1.2rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.information-related-books-series {
+  border-bottom: 0.2rem soild black;
+}
+
+.information-related-image {
+  max-width: 12rem;
+  max-height: 12rem;
+  padding: 1.2rem;
+}
+
+.information-related-recommendations-title {
+  padding: 1.2rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.information-related-recommendations-btn-div {
+  display: grid;
+  padding: 1.2rem;
+}
+
+.information-related-recommendations-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 4.8rem;
+  width: 18rem;
+  justify-self: center;
+  align-self: center;
+  appearance: none;
+}
+
+/* RECOMMEND LIST Container */
+.information-recommend-list-container {
+  display: grid;
+  grid-column: 2;
+  padding: 1.2rem 0;
+  border: 0.2rem solid black;
+  padding-bottom: 3.6rem;
+}
+
+.information-recommend-list-options {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.information-recommend-list-title {
+  padding: 1.2rem;
+  grid-column: 1 / -1;
+  border-bottom: 0.2rem solid black;
+  margin: 0;
+}
+
+.information-recommend-list-option-item {
+  grid-row: 2;
+  display: grid;
+  padding-top: 1.2rem;
+}
+
+.information-recommend-list-option-image {
+  max-width: 10rem;
+  max-height: 10rem;
+
+  justify-self: center;
+}
+
+.information-recommend-list-option-item {
+  border-right: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+  cursor: pointer;
+}
+
+.information-recommend-list-option-item-last {
+  border-right: none;
+}
+
+.information-recommend-list-option-description {
+  justify-self: center;
+}
+
+.information-recommend-list-option-anchor {
+  display: grid;
+}
+
+.information-recommend-list-btn-div {
+  grid-row: 3;
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 1.2rem 0;
+}
+
+.information-recommend-list-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 4.8rem;
+  width: 18rem;
+  appearance: none;
+}
+
+.information-recommend-author-review {
+  display: grid;
+  border-top: 0.2rem solid black;
+}
+
+.information-recommend-reviews {
+  display: grid;
+}
+
+.information-recommend-review-title {
+  padding: 1.2rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.information-recommend-review-item {
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr;
+  padding-left: 1.2rem;
+}
+
+.information-recommend-review-user {
+  grid-row: 1;
+  margin: 0;
+}
+
+.information-recommend-review-rating {
+  grid-row: 2;
+  font-size: 1.2rem;
+  color: yellow;
+  text-shadow: -1px -1px 0 #000, /* top left */ 1px -1px 0 #000,
+    /* top right */ -1px 1px 0 #000, /* bottom left */ 1px 1px 0 #000; /* bottom right */
+  align-self: center;
+}
+
+.information-recommend-review-desc {
+  grid-row: 3;
+  font-size: 1.2rem;
+}
+
+.information-recommend-author-review {
+  padding: 1.2rem 0;
+}
+
+.information-recommend-author-title {
+  padding: 0 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.information-recommend-author-desc {
+  padding: 1.2rem;
+}
+
+.information-recommend-review-title {
+  border-top: 0.2rem solid black;
+}
+
+.information-recommend-review-btn-div {
+  display: grid;
+  padding: 1.2rem 0;
+  border-bottom: 0.2rem solid black;
+}
+
+.information-recommend-review-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 4.8rem;
+  width: 18rem;
+  appearance: none;
+  justify-self: center;
+}
+
+.information-recommend-review-item {
+  border-bottom: 0.2rem solid black;
+}

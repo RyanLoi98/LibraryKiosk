@@ -1,0 +1,25 @@
+/* CSS for hungerGamesViewMap page */
+
+.hungerGamesViewMapHomeHeaderLoggedIn{
+    margin-bottom: 5.1rem;
+}
+
+.floor-image{
+    padding-top: 4rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.floor-select{
+    font-size: 3rem;
+}
+
+.floor-nav{
+    padding-top: 3rem;
+}
+
+.instructions{
+    margin-top: 2rem;
+    border: 2px solid #ff0000;
+    padding: 10px;
+}

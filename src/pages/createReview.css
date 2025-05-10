@@ -1,0 +1,103 @@
+.section-create-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+  margin-bottom: 4.8rem;
+  /* overflow: auto; */
+}
+
+.createReviewHomeHeaderLoggedIn{
+  margin-bottom: 5.1rem;
+}
+
+.create-review-container {
+  display: grid;
+  width: 86rem;
+  /* height: 36rem; */
+}
+
+.create-review-desc-box {
+  display: grid;
+}
+
+.create-review-heading {
+  padding: 1.2rem;
+
+  justify-self: center;
+}
+
+.create-review-item-image {
+  max-height: 18rem;
+  max-width: 18rem;
+
+  justify-self: center;
+}
+
+.create-review-title {
+  padding: 1.2rem;
+  justify-self: center;
+}
+
+.create-review-form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+.create-review-form input,
+.create-review-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.create-review-form #reviewer {
+  width: 30%;
+}
+
+.create-review-form #select-stars {
+  width: 33%;
+}
+
+.create-review-form #review {
+  padding-bottom: 4.8rem;
+}
+
+.create-review-submit-btn-div {
+  display: grid;
+}
+
+.create-review-submit-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  height: 2.4rem;
+  width: 8.4rem;
+  justify-self: center;
+  appearance: none;
+}
+
+/* createReview.css */
+
+.keyboard{
+  /* position: fixed; */
+  position: relative;
+  bottom: 0;
+  left: 50%; /* Center the container horizontally */
+  transform: translateX(-50%); /* Center the container horizontally */
+  width: 75vw; /* Set the width to 70% of the viewport width */
+  z-index: 9999;
+}
+
+.keyboard button {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
+
+.keyboard .hg-button{
+  height: 3.5rem !important;
+  font-size: 20px !important;
+}

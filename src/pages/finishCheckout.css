@@ -1,0 +1,25 @@
+.section-finish-checkout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish-checkout-container {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  width: 72rem;
+  height: 32rem;
+}
+
+.finish-checkout-title,
+.finish-checkout-options,
+.finish-checkout-timeout {
+  justify-self: center;
+  align-self: center;
+}
+
+.reciept-option {
+  font-size: 2.4rem;
+  padding: 2.4rem;
+  margin: 1.2rem;
+}

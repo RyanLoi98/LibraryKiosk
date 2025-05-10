@@ -1,0 +1,17 @@
+.Error404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ErrorBack {
+    margin-top: 15px;
+    display: Flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    padding: 10px 20px;
+}

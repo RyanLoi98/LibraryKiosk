@@ -1,0 +1,23 @@
+.add-to-list-button-text{
+    font-size: 24px;
+    color: black;
+}
+
+.add-to-list-toggle{
+    height: 5rem;
+    width: 10rem;
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.light-grey-toggle{
+    background-color: #efeeee;
+}
+
+.light-grey-toggle.dropdown-toggle::after {
+    border-top-color: black !important; /* Make arrow black */
+}
+
+.light-grey-toggle:hover {
+    background-color: #efeeee !important; /* remove dark grey hover affect*/
+}

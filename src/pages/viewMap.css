@@ -1,0 +1,18 @@
+/* CSS for viewMap page */
+.viewMapHomeHeaderLoggedIn {
+    margin-bottom: 6rem;
+}
+
+.floor-image{
+    padding-top: 4rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.floor-select{
+    font-size: 3rem;
+}
+
+.floor-nav{
+    padding-top: 3rem;
+}

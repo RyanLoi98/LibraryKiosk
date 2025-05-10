@@ -1,0 +1,45 @@
+.recommendation {
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 52rem;
+  overflow: visible;
+  padding: 2rem;
+  position: relative;
+}
+.home-book-rec {
+  max-width: 20rem;
+  max-height: 20rem;
+  /* margin: 3.6rem; */
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.slick-arrow {
+  z-index: 1;
+}
+
+.slick-prev,
+.slick-next {
+  /* Adjust size if needed */
+  width: 4.8rem; /* Width of the clickable arrow area */
+  height: 4.8rem; /* Height of the clickable arrow area */
+  top: 50%; /* Position arrows vertically in the middle */
+  transform: translateY(-50%); /* Align arrows vertically centered */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Choose a color that contrasts with the carousel background */
+  font-size: 4.8rem;
+}
+
+.slick-prev {
+  /* Adjust the value to position the arrow inside the carousel's view */
+  left: -7.2rem;
+}
+
+.slick-next {
+  /* Adjust the value to position the arrow inside the carousel's view */
+  right: -7.2rem;
+}

@@ -1,0 +1,62 @@
+.more-recommendations-container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 8rem;
+}
+
+.moreRecommendationsHomeHeaderLoggedIn{
+    margin-bottom: 5.1rem;
+}
+
+.more-recommendations-title{
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #000000;
+}
+
+.more-recommendations-book{
+    border-right: 2px solid #000000;
+}
+
+.main-book{
+    max-width: 20rem;
+    max-height: 20rem;
+}
+
+.more-recommendations-image{
+    max-height: 20rem;
+    width: auto;
+}
+
+.rec-book{
+    margin-bottom: 1.2rem;
+}
+
+.rec-book-image{
+    border-right: 2px solid #000000;
+}
+
+.more-rec-but-row{
+    justify-content: center;
+}
+
+.more-rec-placehold-button,
+.more-rec-viewmap-button {
+    width: 100%;
+    background-color: #757575;
+    border-color: #757575;
+}
+
+.more-rec-view-more-row{
+    justify-content: center;
+    padding-top: 2rem;
+}
+.view-more-rec-button{
+    width: 30%;
+    background-color: #757575;
+    border-color: #757575;
+}
+
+.user-Rec{
+    color: #007bff;
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+.results-container{
+    display: flex;
+}
+.card-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.filter-results{
+    border: 2px solid black;
+    margin-right: 40px;
+}
+.results-card {
+    display: flex;
+    border: 2px solid black;
+    align-items: center; 
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+.book-image{
+    width: 150px;
+}
+
+.book-info{
+    flex: 1;
+}
+
+.book-locations{
+    flex: 1;
+}
+
+.book-buttons{
+}
+
+.show-map{
+    height: 40px;
+    width: 145px;
+    font-size: 12px;
+    font-weight: bolder;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+.hold{
+    height: 40px;
+    width: 145px;
+    font-size: 12px;
+    font-weight: bolder;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}

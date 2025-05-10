@@ -1,0 +1,175 @@
+
+.library-card-input {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  font-size: 32px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 70px); 
+  grid-gap: 20px; 
+  justify-content: center;
+  align-content: center;
+  /* font-family: 'Times New Roman', Times, serif; */
+  margin-top: 30px;
+}
+
+
+.key {
+  width: 70px; /* Box width */
+  height: 70px; /* Box height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333; /* Darker border color */
+  font-size: 24px; /* Increased font size */
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.key-0 {
+  width: 70px; /* Box width */
+  height: 70px; /* Box height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333; /* Darker border color */
+  font-size: 24px; /* Increased font size */
+  /* font-family: 'Times New Roman', Times, serif; */
+  margin-left: 92px;
+}
+
+.login-scan-card-below-container {
+position: fixed;
+bottom: 0;
+left: 0;
+margin: 10px; /* Optional: Add some margin to the container */
+}
+
+.scan-text, .scan-text-2 {
+margin: 5px; /* Adjust as needed */
+font-weight: bold;
+display: block;
+font-size: 24px;
+}
+/* .scan-text {
+font-size: 24px;
+font-weight: bold;
+display: block;
+}
+
+.scan-text-2 {
+font-size: 24px;
+font-weight: bold;
+margin-left: 35px;
+display: block;
+} */
+.arrow {
+  display: block;
+  font-size: 36px;
+  margin-top: 10px;
+  display: block;
+}
+
+.search-barLogin {
+  padding: 10px;
+  font-size: 18px;
+  border: 3px;
+}
+
+.search-barLogin input[type="text"] {
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.search-barLogin input[type="password"] {
+  width: 500px;
+  height: 40px;
+  padding: 5px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.buttonsLogin {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-column-gap: 10px; 
+  grid-row-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  /* font-family: 'Times New Roman', Times, serif; */
+  margin-top: 1px;
+}
+
+.button-login {
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-login:hover {
+  background-color: #2980b9;
+}
+
+.button-0-login:hover {
+  background-color: #2980b9;
+}
+.button-0-login {
+  font-size: 24px;
+  padding: 20px  48px;
+  text-align: center !important;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 111px;
+}
+
+.delete-button-login {
+  font-size: 24px;
+  background-color:  rgb(224, 54, 54); 
+  color: black; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-left: 10px; 
+} 
+
+.enter-button-login {
+  font-size: 24px;
+  background-color: #4CAF50; /* Red background color */
+  color: black; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  margin-left: 10px; /* Margin between buttons */
+  align-content: center;
+}
+
+.cancel-button-login {
+  font-size: 24px;
+  background-color: #757575; /* Red background color */
+  color: black; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  margin-left: 10px; /* Margin between buttons */
+  align-content: center;
+}
+
+
+.assistancebutton-login {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  
+  background-color: lightcoral;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
