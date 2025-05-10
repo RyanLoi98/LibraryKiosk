@@ -30,7 +30,7 @@ This project was developed as part of **CPSC 481 (Fall 2023)**, a Human-Computer
 
 ### 🔗 Online Demo
 
-No setup required — just click the link to open the site.
+No setup required — just click the link to open the site: https://library-kiosk-mu.vercel.app/
 
 ### 🖥️ Local Setup (Submitted Code)
 
